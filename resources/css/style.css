@@ -1,0 +1,162 @@
+/* general elements */
+
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  margin: 0;
+  opacity: 0.9;
+}
+
+h2, h3, h4, h5 {
+  padding: 10px;
+}
+
+/* flex box container elements */
+
+.flex {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.container2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1200px;
+  flex-direction: row;
+}
+
+/* header content elements */
+
+header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 69px;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  z-index: 1;
+}
+
+#top {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 10px;
+}
+
+#menu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-grow: 1;
+  padding: 10px 20px;
+}
+
+nav a {
+  color: seashell;
+  text-decoration: underline;
+  opacity: 0.9;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+/* main content elements */
+
+#main {
+  width: 1200px;
+  padding-top: 69px;
+  opacity: 0.9;
+  margin: auto;
+}
+
+/* our mission content elements */
+
+#our-mission {
+  height: 700px;
+  background-image: url("./img-mission-background.jpg");
+}
+
+
+#our-mission-content {
+  margin: auto;
+  background-color: black;
+  width: 100%;
+  text-align: center;
+}
+
+/* tea of the month elements */
+
+#teamonth {
+  width: 1000px;
+  padding-top: 70px;
+  margin: auto;
+  text-align: center;
+}
+
+.box {
+  width: 300px;
+  margin: 10px;
+}
+
+.box-text {
+  margin-top: 10px;
+}
+
+#wrap {
+  flex-wrap: wrap;
+}
+
+/* location elements */
+
+#location {
+  height: 500px;
+  background-image: url("./img-locations-background.jpg");
+  padding-top: 70px;
+}
+
+.location-box {
+  opacity: 1.0;
+  padding: 10px;
+  margin: 5px 20px;
+  background-color: black;
+  flex-basis: 280px;
+  width: 300px;
+  text-align: center;
+}
+
+.location h2 {
+  text-align: center;
+}
+
+/* contact elements */
+
+#contact-info {
+  height: 200px;
+  text-align: center;
+}
+
+/* copyright elements */
+
+#copyright {
+  text-align: left;
+  margin-left: 20px;
+}
